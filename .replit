@@ -1,0 +1,6 @@
+run = "g++ -o a.out Forgione.Clone.cpp && ./a.out"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "Forgione.SourcodeMan2", "run"]
